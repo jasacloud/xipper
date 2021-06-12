@@ -1,0 +1,254 @@
+/*Header*/
+
+.home-v5 #cssmenu ul ul li a {
+    color: #0099e0;
+}
+.home-v5 #cssmenu ul ul li a:hover {
+    color: #0099e0;
+}
+.home-v5 #cssmenu ul ul li a:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#0099e0), color-stop(#0099e0), color-stop(#0099e0), color-stop(#0099e0), to(#0099e0));
+    background-image: -o-linear-gradient(left, #0099e0, #0099e0, #0099e0, #0099e0, #0099e0);
+    background-image: linear-gradient(to right, #0099e0, #0099e0, #0099e0, #0099e0, #0099e0);
+}
+.home-v5 #cssmenu ul ul li a::before {
+    background-image: -webkit-gradient(linear, left top, right top, from(#0099e0), color-stop(#0099e0), color-stop(#0099e0), color-stop(#0099e0), to(#0099e0));
+    background-image: -o-linear-gradient(left, #0099e0, #0099e0, #0099e0, #0099e0, #0099e0);
+    background-image: linear-gradient(to right, #0099e0, #0099e0, #0099e0, #0099e0, #0099e0);
+}
+#cssmenu ul ul {
+    border-top: 2px solid #0099e0;
+}
+.home-v5 .topnav {
+    background: -webkit-linear-gradient(146deg, #71cdf8, #72cef8);
+    background: -moz-linear-gradient(146deg, #8A62F0, #7142DF);
+    background: -o-linear-gradient(146deg, #8A62F0, #7142DF);
+    background: linear-gradient(146deg, #72cdf8, #72cdf8);
+    -webkit-box-shadow: 0px 17px 41px -36px rgb(114, 206, 248);
+    -moz-box-shadow: 0px 17px 41px -36px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 17px 41px -36px rgb(2, 110, 158);
+}
+.home-v5 #cssmenu>ul>li>a:after {
+    display: none;
+}
+/* Home 5 Hero */
+
+.home5-hero {
+    padding: 267px 0 200px;
+    background-image: url(../../img/bg/h5-bg1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-5-text h1 {
+    color: #fff;
+    font-weight: 700;
+    line-height: 68px;
+}
+.hero-5-text p {
+    padding: 35px 0 60px;
+    color: #fff;
+}
+.home-5-img-content {
+    position: relative;
+}
+.hero-5-border-img {}
+.hero-5-border-img img {
+    position: absolute;
+    z-index: 111;
+}
+.hero-5-border-img img:nth-child(1) {
+    left: -24%;
+    bottom: 9%;
+    width: 12%;
+    z-index: 11;
+    opacity: .4;
+    animation: scale-up-two 7s infinite linear;
+}
+.hero-5-border-img img:nth-child(2) {
+    top: -43px;
+    width: 13%;
+    left: 10%;
+    animation: alltuchtopdown 5s infinite linear;
+}
+.hero-5-border-img img:nth-child(3) {
+    right: 11%;
+    top: -12%;
+    width: 20%;
+    opacity: .7;
+    animation: scale-up-two 5s infinite linear;
+}
+.hero-5-border-img img:nth-child(4) {
+    top: 15%;
+    right: 11%;
+    width: 7%;
+    opacity: .9;
+    animation: alltuchtopdown 4s infinite linear;
+}
+.hero-5-border-img img:nth-child(5) {
+    top: -8%;
+    left: -8%;
+    width: 13%;
+    opacity: .7;
+    animation: rotatedHalf 10s infinite linear;
+}
+.hero-5-border-img img:nth-child(7) {
+    top: 54%;
+    left: -11%;
+    width: 7%;
+    opacity: .7;
+    animation: scale-up-two 3s infinite linear;
+}
+.hero-5-border-img img:nth-child(6) {
+    bottom: 11%;
+    right: 9%;
+    width: 12%;
+    opacity: .7;
+    animation: scale-up-two 3s infinite linear;
+}
+.hero-5-img {
+    text-align: center;
+    position: relative;
+    z-index: 22;
+}
+.hero-5-img img {
+    position: relative;
+    z-index: 22;
+    -webkit-animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+    animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+#pricing-area.home5-pricing-area::before {
+    display: none;
+}
+.home5-pricing-area {
+    position: relative;
+    padding-top: 175px;
+    background: rgb(96, 169, 221);
+    background: linear-gradient(35deg, rgba(96, 169, 221, 1) 0%, rgb(95, 191, 254) 69%);
+}
+.home5-pricing-area .section-title h2 {
+    color: #fff;
+}
+.home5-pricing-area .section-title p {
+    color: #fff;
+}
+.home5-pricing-tab {
+    -ms-flex-pack: center!important;
+    -webkit-box-pack: center!important;
+    justify-content: center!important;
+    margin-top: 66px;
+    margin-bottom: 40px;
+}
+.home5-pricing-tab li {}
+.home5-pricing-tab li a {
+    font-size: 14px;
+    line-height: 30px;
+    color: #878991;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+    background-color: #fff;
+}
+.home5-pricing-tab li a.active {
+    color: #fff;
+    background-color: rgb(0, 153, 224);
+}
+.home5-pricing-tab li:nth-child(1) a {
+    padding: 20px 55px;
+    border-radius: 50px 0 0px 50px;
+}
+.home5-pricing-tab li:nth-child(2) a {
+    padding: 20px 55px;
+    border-radius: 0px 50px 50px 0px;
+}
+.home5-pricing-area .pricing-item {
+    background-color: rgb(0, 153, 224);
+    padding: 55px 47px 61px;
+}
+.home5-pricing-area .pricing-item .btn-1 {
+    background: none;
+    border: 2px solid #fff;
+}
+.home5-pricing-area .pricing-item-active .btn-1 {
+    background: #02d9cf;
+}
+#faq-area.home5-faq-area button.faq-title {
+    background: rgb(96, 169, 221);
+    background: linear-gradient(35deg, rgba(96, 169, 221, 1) 0%, rgb(95, 191, 254) 69%);
+}
+#faq-area.home5-faq-area .accordion .collapsed {
+    color: #fff;
+}
+.accordion .collapsed .card-icon {
+    color: #fff;
+    background: #8A62F0;
+    background: -o-linear-gradient(146deg, #8A62F0, #7142DF);
+    background: -o-linear-gradient(304deg, #8A62F0, #7142DF);
+    background: linear-gradient(35deg, rgb(51, 153, 224) 0%, rgb(96, 180, 237) 69%);
+}
+.card-icon {
+    color: #5fbffe;
+}
+.home5-footer-area .footer-app {
+    background: rgb(96, 169, 221);
+    background: linear-gradient(35deg, rgba(96, 169, 221, 1) 0%, rgb(95, 191, 254) 69%);
+}
+.home5-counter {
+    position: relative;
+    padding-top: 90px;
+    background: rgb(96, 169, 221);
+    background: linear-gradient(35deg, rgba(96, 169, 221, 1) 0%, rgb(95, 191, 254) 69%);
+}
+.home5-counter::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80%;
+    background-image: url(../../img/h5-border/overle.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home4-overview-area {
+    background-image: url(../../img/bg/h5-bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home4-overview-area .hero-5-btn {
+    margin-top: 40px;
+}
+.home5-how-works-video-content {
+    margin-top: 46px;
+    margin-bottom: -160px;
+    z-index: 22;
+    position: relative;
+}
+.home5-how-works-video-content .video-play-button:before {
+    background: rgb(96, 169, 221);
+    background: linear-gradient(35deg, rgba(96, 169, 221, 1) 0%, rgb(95, 191, 254) 69%);
+}
+.home5-how-works-video-content .video-play-button:after {
+    background: rgb(96, 169, 221);
+    background: linear-gradient(35deg, rgba(96, 169, 221, 1) 0%, rgb(95, 191, 254) 69%);
+}
+#footer-area.home5-footer-area {
+    position: relative;
+    overflow: hidden;
+}
+.home-v5 .home5-footer-area .home4-footer-animations img:nth-child(1) {
+    left: -70px;
+}
+.home-v5 .home5-footer-area .home4-footer-animations img:nth-child(4) {
+    right: -50px;
+}
+.home-v5 .footer-wiget-item ul li a::before, .home-v5 .footer-wiget-item ul li a:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#0099e0), color-stop(#0099e0), color-stop(#0099e0), color-stop(#0099e0), to(#0099e0));
+    background-image: -o-linear-gradient(left, #0099e0, #0099e0, #0099e0, #0099e0, #0099e0);
+    background-image: linear-gradient(to right, #0099e0, #0099e0, #0099e0, #0099e0, #0099e0);
+}
